@@ -18,10 +18,14 @@ Picturest is a ImageLoader library with async loading image and auto cache prope
 ## Some Important Method
 
   **For checking logs**
+  ```
   ImageLoader.log()
+  ```
   
   **For display image**
+  ```
   ImageLoader.createTask().web("your image link").into(imageView).start()
+  ```
   
   **Cache control**
   ```
@@ -53,11 +57,10 @@ Picturest is a ImageLoader library with async loading image and auto cache prope
     ```
             
     **Set Loading and Failed Resource**
-    ``ImageLoader.createTask().web("cdn-img.easyicon.net/image/mix.png")
+    ```
+    ImageLoader.createTask().web("your image link")
            .loadingRes(R.mipmap.ic_launcher)
            .failedRes(R.drawable.ic_launcher)
-           .into(imageView).start();``
-
-  
-
+           .into(imageView).start();
+    ```
   
