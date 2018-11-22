@@ -19,12 +19,12 @@ Picturest is a ImageLoader library with async loading image and auto cache prope
 
   **For checking logs**
   ```
-  ImageLoader.log()
+  ImageLoader.log();
   ```
   
   **For display image**
   ```
-  ImageLoader.createTask().web("your image link").into(imageView).start()
+  ImageLoader.createTask().web("your image link").into(imageView).start();
   ```
   
   **Cache control**
@@ -46,7 +46,6 @@ Picturest is a ImageLoader library with async loading image and auto cache prope
                     //your job
                     Toast.makeText(MainActivity.this,"onFailed",Toast.LENGTH_SHORT).show();
                 }
-
                 @Override
                 public void onSuccess(Bitmap bitmap) {
                     //your job
@@ -54,7 +53,8 @@ Picturest is a ImageLoader library with async loading image and auto cache prope
                 }
             })
             .into(imageView).start();
-    ```
+   ```
+    
             
     **Set Loading and Failed Resource**
     ```
