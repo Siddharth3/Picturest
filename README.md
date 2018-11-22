@@ -37,6 +37,14 @@ Picturest is a ImageLoader library with async loading image and auto cache prope
   ImageLoader.createTask().web("your image link").cleanMemCache();//clear custom memory cache
   ```
    
+  **Set Loading and Failed Resource**
+  ```
+  ImageLoader.createTask().web("your image link")
+           .loadingRes(R.mipmap.ic_launcher)
+           .failedRes(R.drawable.ic_launcher)
+           .into(imageView).start();
+  ```
+    
    **Callback**
    ```
    ImageLoader.createTask().web("your image link")
@@ -53,14 +61,4 @@ Picturest is a ImageLoader library with async loading image and auto cache prope
                 }
             })
             .into(imageView).start();
-   ```
-    
-            
-    **Set Loading and Failed Resource**
-    ```
-    ImageLoader.createTask().web("your image link")
-           .loadingRes(R.mipmap.ic_launcher)
-           .failedRes(R.drawable.ic_launcher)
-           .into(imageView).start();
-    ```
-  
+   ```  
