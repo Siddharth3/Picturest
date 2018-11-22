@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item"
+    style="@style/match_wrap"
+    android:background="@drawable/custom_item_layout"
+    android:layout_margin="@dimen/dimen_5"
+    android:padding="@dimen/dimen_2">
+    <!--
+    grid items for RecyclerView
+    -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_200"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView_name"
+        style="@style/wrap_wrap"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="@dimen/text_size_15"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="@dimen/dimen_10"/>
+
+</android.support.constraint.ConstraintLayout>
+</layout>

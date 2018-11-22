@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/match_match"
+        tools:context=".fullimage.FullImageActivity">
+
+        <ImageView
+            android:id="@+id/imageView_full"
+            style="@style/match_match"
+            android:scaleType="fitXY"/>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
