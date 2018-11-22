@@ -23,13 +23,13 @@ Picturest is a ImageLoader library with async loading image and auto cache prope
   >For display image
   **ImageLoader.createTask().web("your image link").into(imageView).start()**
   
-  **Cache control**
-   `` ImageLoader.clearMemCache(80);//trim to 80%
+  >Cache control
+   ``` ImageLoader.clearMemCache(80);//trim to 80%
       ImageLoader.clearMemCache();//clear all
       ImageLoader.clearDiskCache(this);//clear all
       ImageLoader.createTask().web("your image link").cleanCache(this);//clear custom memory and disk cache
       ImageLoader.createTask().web("your image link").cleanDiskCache(this);//clear custom disk cache
-      ImageLoader.createTask().web("your image link").cleanMemCache();//clear custom memory cache ``
+      ImageLoader.createTask().web("your image link").cleanMemCache();//clear custom memory cache ```
    
    **Callback**
    ``ImageLoader.createTask().web("your image link")
