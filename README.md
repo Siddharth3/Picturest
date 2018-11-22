@@ -5,14 +5,14 @@ Picturest is a ImageLoader library with async loading image and auto cache prope
 
 **Feature**
   
-  *Cache clear option with complete and partially
-  *Multi Image Format Support: Raw,Assert,Content Provider,Local File,WebImage etc.
-  *Auto compress Image
-  *Auto cache in memory and disk.
-  *Auto recycle memory
-  *Async load with callback with thread pool control.
-  *Custom Load framework,use your custom library to load image,such as okHttp.
-  *Builder Design Mode.
+  -Cache clear option with complete and partially
+  -Multi Image Format Support: Raw,Assert,Content Provider,Local File,WebImage etc.
+  -Auto compress Image
+  -Auto cache in memory and disk.
+  -Auto recycle memory
+  -Async load with callback with thread pool control.
+  -Custom Load framework,use your custom library to load image,such as okHttp.
+  -Builder Design Mode.
 
 
 **Some Important Method**
