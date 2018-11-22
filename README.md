@@ -1,9 +1,9 @@
-***Picturest***
+# Picturest
 
 Picturest is a ImageLoader library with async loading image and auto cache properties.
 
 
-**Feature**
+## Feature
   
   - Cache clear option with complete and partially
   - Multi Image Format Support: Raw,Assert,Content Provider,Local File,WebImage etc.
@@ -15,21 +15,21 @@ Picturest is a ImageLoader library with async loading image and auto cache prope
   - Builder Design Mode.
 
 
-**Some Important Method**
+## Some Important Method
 
   >For checking logs
-  ``ImageLoader.log()``
+  **ImageLoader.log()**
   
   >For display image
-  ``ImageLoader.createTask().web("your image link").into(imageView).start()``
+  **ImageLoader.createTask().web("your image link").into(imageView).start()**
   
   **Cache control**
-   ``ImageLoader.clearMemCache(80);//trim to 80%
-   ImageLoader.clearMemCache();//clear all
-   ImageLoader.clearDiskCache(this);//clear all
-   ImageLoader.createTask().web("your image link").cleanCache(this);//clear custom memory and disk cache
-   ImageLoader.createTask().web("your image link").cleanDiskCache(this);//clear custom disk cache
-   ImageLoader.createTask().web("your image link").cleanMemCache();//clear custom memory cache``
+   `` ImageLoader.clearMemCache(80);//trim to 80%
+      ImageLoader.clearMemCache();//clear all
+      ImageLoader.clearDiskCache(this);//clear all
+      ImageLoader.createTask().web("your image link").cleanCache(this);//clear custom memory and disk cache
+      ImageLoader.createTask().web("your image link").cleanDiskCache(this);//clear custom disk cache
+      ImageLoader.createTask().web("your image link").cleanMemCache();//clear custom memory cache ``
    
    **Callback**
    ``ImageLoader.createTask().web("your image link")
