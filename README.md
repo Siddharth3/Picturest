@@ -1,13 +1,13 @@
 # Picturest
 
-Picturest is a ImageLoader library with async loading image and auto cache properties.
+Picturest is a Image loading library with async loading image and auto cache properties.
 
 
 ## Feature
   
   - Cache clear option with complete and partially
-  - Multi Image Format Support: Raw,Assert,Content Provider,Local File,WebImage etc.
-  - Auto compress Image
+  - Multiple format support: Raw,Assert,Content Provider,Local File,WebImage etc.
+  - Auto compress image
   - Auto cache in memory and disk.
   - Auto recycle memory
   - Async load with callback with thread pool control.
