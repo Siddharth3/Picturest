@@ -32,18 +32,18 @@ public class Engine {
         }
 
         log.addMsg("Read memory cache");
-        Bitmap bitmap = request.requestMem();//请求内存
+        Bitmap bitmap = request.requestMem();//Request memory
 
 
         if (bitmap == null) {
 
             log.addMsg("No memory cache, read local cache");
-            D diskCache = request.requestDisk();//请求本地
+            D diskCache = request.requestDisk();//Request local
 
             if (diskCache == null) {
 
                 log.addMsg("No local cache, request network data");
-                W webCache = request.requestWeb();//请求网络
+                W webCache = request.requestWeb();//Request network
 
                 if (webCache == null) {
                     return null;
